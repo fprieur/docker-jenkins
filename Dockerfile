@@ -1,2 +1,2 @@
 FROM jenkins
-COPY ~/.ssh/ /var/jenkins_home/.ssh/
+COPY $HOME/.ssh/ /var/jenkins_home/.ssh/
