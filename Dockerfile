@@ -1,2 +1,2 @@
 FROM jenkins
-ADD $HOME/.ssh /var/jenkins_home/.ssh/
+COPY $HOME/.ssh/id_rsa.pub /var/jenkins_home/.ssh/
