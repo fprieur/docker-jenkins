@@ -1,2 +1,2 @@
 FROM jenkins
-COPY $HOME/.ssh $HOME
+COPY $HOME/.ssh/ $HOME
