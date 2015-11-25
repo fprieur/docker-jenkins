@@ -1,2 +1,2 @@
 FROM jenkins
-COPY $HOME/.ssh/ $HOME
+RUN eval echo /home/`whoami`
